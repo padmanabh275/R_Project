@@ -1,0 +1,200 @@
+﻿1.If a coin is tossed, find the probability distribution of getting tails.
+
+Probability Distribution - a function of a discrete variable whose integral over any interval is the probability that the variate specified by it will lie within that interval.
+
+f(x)= 1/n where n is the no of values the random variable may assume 
+
+If a coin is tossed, either it is a head or a tail = 0 for head, 1 for tail 
+P(0)=1/2
+p(1)=1/2
+
+The Probability Distribution Table :-
+
+X		0		1
+P(X)	1/2		1/2
+
+2.If two coins are tossed simultaneously, find the probability distribution of getting head.
+
+
+Sample S = (HH,HT,TH,TT)
+
+Table - 
+
+X		0		1		2
+P(X)	1/4		1/2		1/4
+
+3.In a class on 100 students, 80 students passed in all subjects, 10 failed in one subject, 7
+failed in two subjects and 3 failed in three subjects. Find the probability distribution of
+the variable for number of subjects a student from the given class has failed in.
+
+Random Student:
+Probability of failing in 0 subjects - P(X=0)=0.8
+Probability of failing in 1 subject - P(X=1)=0.1
+Probability of failing in 2 subject - P(X=2)=0.7
+Probability of failing in 3 subject - P(X==3)=0.03
+
+Probability Distribution Table 
+
+X				0		1		2		3
+P(X)			0.8		0.1		0.7		0.03
+
+4.A die is having 6 sides has two dots on 3 sides, four dots on 2 sides and six dot on 1 side.
+Find the probability distribution of getting a number on rolling the die.
+
+On rolling the die possible outcomes are 2,4,6
+Probability of getting 2 dots - P(X==2)=3/6=1/2
+Probability of getting 4 dots - P(X==4)=2/6=1/3
+Probability of getting 6 dots - P(X==6)=1/6
+
+Probability Distribution Table - 
+
+X			2		4		6
+P(X)		1/2		1/3		1/6
+
+
+5.Three coins are being tossed, find the probability distribution of getting any number of
+tails.
+
+
+Sample S - (HHH,HHT,HTH,THH,THT,HTT,TTH,TTT)
+Tossing 3 coins no of possible tails - 0,1,2,3
+
+Probability of 0 tails - P(X==0)=1/8
+Probability of 1 tails - P(X==1)=3/8
+Probability of 2 tails - P(X==2)=3/8
+Probability of 3 tails - P(X==3) = 1/8
+
+Proability Distribution Table - 
+
+X			0		1		2		3
+P(X)		1/8		3/8		3/8		1/8
+
+
+6.Acme Corporation manufactures light bulbs. The CEO claims that an average Acme light
+bulb lasts 300 days. A researcher randomly selects 15 bulbs for testing. The sampled
+bulbs last an average of 290 days, with a standard deviation of 50 days. If the CEO's claim
+were true, what is the probability that 15 randomly selected bulbs would have an average
+life of no more than 290 days?
+
+where x is the sample mean, μ is the population mean, s is the standard deviation of the sample, and n is the sample size.
+t = [ x - μ ] / [ s / sqrt( n ) ] 
+t= [290(Average)-300)/[50 /sqrt(15)
+t=-10/12.90=-0.774
+The degrees of freedom are equal to 15 - 1 = 14.
+The t statistic is equal to - 0.7745966.
+The calculator displays the cumulative probability: 0.226. 
+Hence, if the true bulb life were 300 days, there is a 22.6% chance that the average bulb life for 15 randomly selected bulbs would be less than or equal to 290 days.
+
+7.Suppose scores on an IQ test are normally distributed, with a population mean of 100.
+Suppose 20 people are randomly selected and tested. The standard deviation in the
+sample group is 15. What is the probability that the average test score in the sample
+group will be at most 110?
+
+The degrees of freedom are equal to 20 - 1 = 19.
+The population mean equals 100.
+The sample mean equals 110.
+The standard deviation of the sample is 15.
+
+We enter these values into the T Distribution Calculator. The calculator displays the cumulative probability: 0.996.
+Hence, there is a 99.6% chance that the sample average will be no greater than 110.
+
+8.Let’s say that 80% of all business startups in the IT industry report that they generate a
+profit in their first year. If a sample of 10 new IT business startups is selected, find the
+probability that exactly seven will generate a profit in their first year.First, do we satisfy
+the conditions of the binomial distribution model?There are only two possible mutually
+exclusive outcomes – to generate a profit in the first year or not (yes or no).There are a
+fixed number of trails (startups) – 10.The IT startups are independent and it is reasonable
+to assume that this is true.
+
+do we satisfy the conditions of the binomial distribution model?
+
+There are only two possible mutually exclusive outcomes – to generate a profit in the first year or not (yes or no).
+There are a fixed number of trails (startups) – 10.
+The IT startups are independent and it is reasonable to assume that this is true.
+The probability of success for each startup is 0.8.
+n = 10, p=0.80, q=0.20, x=7
+P(X=7)=10! /7!(10-7)!(0.80) squared 7 (1-0.80) sqrt(10-7)
+P(X=7)=0.2013  
+
+10.Your basketball team is playing a series of 5 games against your opponent. The winner is
+those who wins more games (out of 5).Let assume that your team is much more skilled
+and has 75% chances of winning. It means there is a 25% chance of losing.What is the
+probability of your team get 3 wins?
+
+n = 5, p=0.75, q=0.25, x=3
+
+P(X=3)=5!/3!(5-3)!0.75(3)(1-0.75)(5-3)=0.264
+
+11.A box of candies has many different colors in it. There is a 15% chance of getting a pink
+candy. What is the probability that exactly 4 candies in a box are pink out of 10?
+
+n = 10, p=0.15, q=0.85, x=4
+using binomial formula, P(x=4)=0.04
+
+
+12.A continuous random variable say Y is following uniform distribution such that the
+probability between 4 and 9 is ‘r’. Find the value of ‘r’.
+
+In a uniform distribution, the probability is same for all possible values of given variable between the specified range, 
+so if ‘p’ is the probability of any value between say a and b then p = 1(b−a) since the sum of all probabilities is always equal to 1. 
+
+Here, p = r, a = 4 and b = 9.
+
+So r =1(9−4) = 1/5.
+
+13.In the old days, there was a probability of \displaystyle{0.8}0.8 of success in any attempt
+to make a telephone call. (This often depended on the importance of the person making
+the call, or the operator's curiosity!)Calculate the probability of having \displaystyle{7}7 successes in \displaystyle{10}10 attempts.
+
+Prob. of success p =0.8 ,q =0.2
+X=sucess in getting through 
+Probabiity of 7 success in 10 attempts
+P(X==7)=C10(7)(0.8)(0.7)*(0.2)(10-7)
+=0.2013
+
+14.A test is conducted which is consisting of 20 MCQs (multiple choices questions) with every
+MCQ having its four options out of which only one is correct. Determine the probability
+that a person undertaking that test has answered exactly 5 questions wrong.
+
+ n = 20, n - k = 5, k = 20 - 5 = 15
+the probability of success = probability of giving a right answer = s = 1/4
+e probability of failure = probability of giving a wrong answer = 1 - s 
+= 1 - 1/4 = 3/4
+When we substitute these values in the formula for Binomial distribution we get,
+P(exactly 5 out of 20 answers incorrect) = C (20, 5) * (1/4) 15 * (3/4)5
+P (5 out of 20) = 0.0000034
+
+15.A die marked A to E is rolled 50 times. Find the probability of getting a “D” exactly 5
+times.
+
+n = 50, k = 5, n - k = 45.
+
+probability of success = probability of getting a “D”= s = 1/5
+the probability of failure = probability of not getting a “D” = 1 - s = 4/5.
+
+
+16.What is the probability that the marketing representative must select more than 6 people
+before he ends one who attended the last home football game?
+
+P(X>6)=1-P(X<=6)=1-[1-0.8(6)] =0.8[6] =0.262
+
+17.How many people should we expect (that is, what is the average number) the marketing
+representative needs to select before he nds one who attended the last home football
+game? And, while we're at it, what is the variance?
+
+The average numbers is -
+Mean =E(X)=1/p= 1/0.20 = 5 
+
+The Variance is 
+standard deviation squared=Var(X)=(1-p)/p squared(2) =0.80/0.20(2) = 20
+
+18.The number of miles that a particular car can run before its battery wears out is
+exponentially distributed with an average of 10,000 miles. The owner of the car needs to
+take a 5000-mile trip. What is the probability that he will be able to complete the trip
+without having to replace the car battery?
+X is the lifetime of the battery
+t is the number of miles that the battery had been in use
+prior to the start of the trip.
+P(X > t + 5|X > t) = P(X > 5)
+P(X>5000)=e -5000/10000 = e -(1/2) = 0.604
+

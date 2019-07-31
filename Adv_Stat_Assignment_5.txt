@@ -1,0 +1,203 @@
+1. Given the following statistics, what is the probability that a woman has cancer if she has a
+positive mammogram result? One percent of women over 50 have breast cancer. Ninety
+percent of women who have breast cancer test positive on mammograms. Eight percent of
+women will have false positives.
+
+Facts - 
+
+1 % of women over 50 have breast cancer
+99 % of women who have breast cancer test positive on Mammograms
+8% of women will have false postives
+
+P(A) - 0.01 - Over 50 have breast cancer
+P(~A)- 0.99 - test postive on mammograms who have breast cancer
+P(X|~A) - 0.08 - With False Positives
+P(X|A) - 0.09 ( 1% people of 90 who have defect)
+
+P(B|A) =P(B INTERSECTION A) /P(A) = P(B INTERSECTION A)/ P(B INTERSECTION A) + P(B COMPLIMENT INTERSECTION A)
+P(B ∩ A) = P(B) * P(A|B)
+
+The two sides of the equation are equivalent, and P(B) * P(A|B) is what we were using when we solved the numerator in the problem above.
+P(B) * P(A|B) = 0.01 * 0.9 = 0.009
+
+For the denominator, we have P(Bc ∩ A) as part of the equation. This can be (equivalently) rewritten as P(Bc*P(A|Bc). This gives us:
+P(Bc*P(A|Bc) = 0.99 * 0.08 = 0.0792.
+
+Inserting those two solutions into the formula, we get:
+0.009 / (0.009 + 0.0792) = 10%.
+
+(0.9 * 0.01) / ((0.9 * 0.01) + (0.08 * 0.99) = 0.10.
+
+
+
+
+
+2. An urn B1 contains 2 white and 3 black balls and another urn B2 contains 3 white and 4
+black balls. One urn is selected at random and a ball is drawn from it. If the ball drawn is found
+black, nd the probability that the urn chosen was B1.
+
+
+P((urn B1) AND (black)) = (1/2)*(3/5) = (3/10)
+P((urn B2) AND (black)) = (1/2) * (4/4) = (2/7)
+
+P urn 1 was choose and it had black = 3/10 /(3/10)+(2/7) = 3/10/(41/70) = 21/41
+
+
+
+
+3. The urns contain 6 green, 4 black; 4 green, 6 black and 5 green, 5 black balls respectively.
+Randomly selected an urn and a ball is drawn from it. If the ball drawn is Green, nd the
+probability that it is drawn from the rst urn.
+
+Let E1, E2, E3 and A be the events defined as follows:
+
+E1 = urn first is chosen, 
+E2 = urn second is chosen,
+E3 = urn third is chosen, 
+A = ball drawn is Green
+Since there are three urns and one of the three urns is chosen at
+random, therefore
+P(E1) = P(E2) = P(E3) = 1/3
+If E1 is already occurred, then urn first has been chosen which
+contains 6 Green and 4 Black balls. The probability of drawing a
+green ball from it is 6/10.
+So, P(A/E1) = 6/10
+Similarly, we have P(A/E2) = 4/10 and P(A/E3) = 5/10
+We are required to find P(E1/A) , i.e. given that the ball drawn
+is Green , what is the probability that it is drawn from the first
+urn. By Bayes’ theorem, we have
+P(E1/A) = P(E1)P(A/E1)/
+P(E1)P(A/E1)+P(E2)P(A/E2)+P(E3)P(A/E3)
+= (1/3*6/10)/ (1/3*6/10)+(1/3*4/10) +(1/3*5/10)
+= 6/15
+= 2/5
+
+
+
+4. A is known to tell the truth in 5 cases out of 6 and he states that a white ball was drawn
+from a bag containing 8 blacks and 1 white ball. Find the probability that the white ball was
+drawn.
+
+
+Let W denote the event that A draws a white ball and T the event that A speaks truth. In the usual notations, we are given
+that
+P(W) = 1/9,
+P(T/W) = 5/6
+=> P(W¯) = 1 – 1/9 = 8/9
+and P(T/W¯) = 1 – 5/6 = 1/6
+
+Using Bayer’s theorem , the required probability is given by
+P (W/T)
+= P(T/W)P(W) / P(T/W)P(W) + P(T/W¯)P(W¯)
+= 5/6*1/9 / 5/6*1/9 + 1/6*8/9
+= 5/13
+
+
+5. Bag I contains 4 white and 6 black balls while another Bag II contains 4 white and 3 black
+balls. One ball is drawn at random from one of the bags and it is found to be black. Find the
+probability that it was drawn from Bag I.
+
+BAG X = 4 WHITE, 6 BLACK 
+BAG Y = 4 WHITE 3 BLACK 
+LET A BE AN EVENT FOR DRAWING BALL IT IS FOUND TO BE Black
+
+E1 - BAG 1 , E2 BAG 2 = P(E1) = 1/2 P(E2) 1/2
+Given, Bag1(E1) has 4 white and 6 black, n(bag1)=10, and n(Black)=6
+Bag2(E2) has 4 white 3 black, n(bag2)=7 and n(Black)=3 
+P(drawing a black from Bag 1) = 6/10=3/5 =P(A/E1)
+P(drawing a black from Bag 2) = 3/7 = P(A/E2)
+
+Applying, Bayers Theroem - 
+P(E1/A) = P(E1)P(A/E1)/
+P(E1)P(A/E1)+P(E2)P(A/E2)+P(E3)P(A/E3)
+3/5 /(3/5)+(3/7)=0.154
+
+
+
+
+
+6. A man is known to speak truth 2 out of 3 times. He throws a die and reports that number
+obtained is a four. Find the probability that the number obtained is actually a four.
+
+Man - 4
+X1 - Truth P(X1) = 2/5
+X2- Lie - P(X2) = 3/5 
+P(A|X1) = 1/6
+P(A|X2) = 5/6
+Bayers Theorem - P(X1) * P(A|X1) / P(X1) * p(A|X1) + P(X2) * P(A|X2) 
+(2/5 * 1/6) / (2/5 * 1/6) + (3/5 * 5/6) = 2/17 = 0.117
+
+
+
+
+7. You go to see the doctor about an ingrowing toenail. The doctor selects you at random to
+have a blood test for swine u, which for the purposes of this exercise we will say is currently
+suspected to affect 1 in 10,000 people in Australia. The test is 99% accurate, in the sense that
+the probability of a false positive is 1%. The probability of a false negative is zero. You test
+positive. What is the new probability that you have swine u? Now imagine that you went to a
+friend’s wedding in Mexico recently, and it is know that 1 in 200 people who visited Mexico
+recently come back with swine u. Given the same test result as above, what should your
+revised estimate be for the probability you have the disease?
+
+Let P(D) be the probability you have swine flu.
+
+Let P(T) be the probability of a positive test.
+
+We wish to know P(D|T).
+
+Bayes theorem says
+
+P(D|T) = P(T|D)P(D) / P(T)
+
+which in this case can be rewritten as
+
+P(D|T) = P(T|D)P(D) / (P(T|D)P(D) + P(T|ND)P(ND))
+
+where P(ND) means the probability of not having swine flu.
+
+We have
+
+P(D) = 0.0001 (the a priori probability you have swine flu).
+
+P(ND) = 0.9999
+
+P(T|D) = 1 (if you have swine flu the test is always positive).
+
+P(T|ND) = 0.01 (1% chance of a false positive).
+
+Plugging these numbers in we get
+
+P(D|T) = 1*0.0001 / (1*0.0001+0.01*0.9999) ≈ 0.01
+
+That is, even though the test was positive your chance of having swine flu is only 1%. 
+(This is essentially the “defense attorney’s” argument we discussed in the lectures, though in this case it’s not a fallacy because your P(D) is indeed very low.)
+
+However, if you went to Mexico recently then your starting P(D) is 0.005. In this case
+
+P(D|T) = 1*0.005 / (1*0.005+0.01*0.995) ≈ 0.33
+
+and you should be a lot more worried.
+
+
+
+
+8. A diagnostic test has a probability0.95 of giving a positive result when applied to a person
+suffering from a certain disease, and a probability0.10 of giving a (false) positive when applied
+to a non-sufferer. It is estimated that 0.5 % of the population are sufferers. Suppose that the
+test is now administered to a person about whom we have no relevant information relating to
+the disease (apart from the fact that he/she comes from this population). Calculate the
+following probabilities:
+a) that the test result will be positive;
+b) that, given a positive result, the person is a sufferer;
+c) that, given a negative result, the person is a non-sufferer;
+d) that the person will be misclassied
+
+Let T ≡ “Test positive”, S ≡ “Sufferer”, M ≡ “Misclassified.” Then P(T|S)=0.95, P(T|S)=0.10,
+P(S)=0.005. Hence
+(a) P(T) = P(T|S)P(S) + P(T|S)P(S) = (0.95 × 0.005) + (0.1 × 0.995) = 0.10425.
+(b) P(S|T) = P(T|S)P(S) P(T|S)P(S) + P(T|S)P(S) = 0.95 × 0.005(0.95 × 0.005) + (0.1 × 0.995) = 0.0455.
+(c) P(S|T) = P(T|S)P(S)P(T) = 0.9 × 0.995 1 − 0.10425 = 0.9997.
+(d) P(M) = P(T ∩ S) + P(T ∩ S) = P(T|S)P(S) + P(T|S)P(S)=0.09975.
+
+
+

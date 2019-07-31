@@ -1,0 +1,70 @@
+1.Consider two random variables X and Y with joint PMF given in Table 5.3.
+Find P(X≤2,Y≤4).
+Find the marginal PMFs of X and Y.
+Find P(Y=2|X=1).
+Are X and Y independent?
+
+
+To find P(X≤2,Y≤4), we can write
+P(X≤2,Y≤4)=PXY(1,2)+PXY(1,4)+PXY(2,2)+PXY(2,4)=1/12+1/24+1/6+1/12=3/8.
+
+
+Using the formula for conditional probability, we have
+
+P(Y=2|X=1)=P(X=1,Y=2)P(X=1)=PXY(1,2)PX(1)=1/121/6=1/2.
+
+
+Are X and Y independent? To check whether X and Y are independent,
+we need to check that P(X=xi,Y=yj)=P(X=xi)P(Y=yj), for all xi∈RX and all yj∈RY. Looking at the table and the results from previous parts, we find
+P(X=2,Y=2)=1/6≠P(X=2)P(Y=2)=3/16.
+
+2.I have a bag containing 40 blue marbles and 60 red marbles. I choose 10 marbles (without replacement) at random. 
+Let X be the number of blue marbles and y be the number of red marbles. Find the joint PMF of X and Y.
+
+This is, in fact, a hypergeometric distribution. First, note that we must have X+Y=10, so
+RXY={(i,j)|i+j=10,i,j∈Z,i,j≥0}={(0,10),(1,9),(2,8),...,(10,0)}
+Then, we can write
+PXY(i,j)=(40i)(60j)(10010)0i+j=10,i,j∈Z,i,j≥0otherwise
+
+3.Let X and Y be two independent discrete random variables with the same CDFs FX and FY . Define
+Z=max(X,Y),W=min(X,Y).
+Find the CDFs of Z and W
+
+To find the CDF of Z, we can write
+FZ(z)=P(Z≤z)=P(max(X,Y)≤z)=P((X≤z) and (Y≤z))=P(X≤z)P(Y≤z)=FX(z)FY(z).( since X and Y are independent)
+
+To find the CDF of W, we can write
+
+FW(w)=P(W≤w)=P(min(X,Y)≤w)=1−P(min(X,Y)>w)=1−P((X>w) and (Y>w))=1−P(X>w)P(Y>w)=1−(1−FX(w))(1−FY(w))=FX(w)+FY(w)−FX(w)FY(w).( since X and Y are independent)
+
+4. Consider a pair of discrete random variables XX and YY. What formula would you use
+to calculate the conditional probability
+P(X=4|Y=1)P(X=4|Y=1) and the conditional expectation E(X|Y=1)
+
+5.In a lottery, each ticket has 5 one-digit numbers 0-9 on it.You win if your ticket has
+the digits in any order. What are your changes of winning?You would win only if your
+ticket has the digits in the required order. What are your chances of winning?
+
+
+10 digits to be taken at 5 times
+C(10,5) = P(10,5)/5! = 10*9*8*7*6/5! = 252 
+1 out of 252 chances
+
+P(10,5) = 10*9*8*7*6 = 30240 chances out of 1 
+
+
+6. In how many ways can a coach choose three swimmers from among five swimmers?
+
+The number of combinations of n things taken r at a time is written as C(n, r).
+The formula is given by:
+
+Combination Formula - C(n,r)=p(n,r)/r! = n!/(n-r)!r!
+
+
+C(5,3)=P(5,3)/3! = 5*4*3/3*2*1 =10 
+
+7. Six friends want to play enough games of chess to be sure every one plays everyone
+else. How many games will they have to play?
+
+6 players 2 take time to play 
+C(6,2)=P(6,2)/2! = 6*5/2*1 = 15 Games

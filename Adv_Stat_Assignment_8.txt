@@ -1,0 +1,285 @@
+﻿1. The standard deviation of 100 W light bulbs whose life span follows a normal distribution
+is given to be 120 hours and a half-life of same is guaranteed to be 700 hours of under
+warranty. 100 bulbs are selected at random from the lot whose half-life is determined to be
+650 hours. If the signicance level is 0.01, then the lot should be rejected or not for not
+restricting to the guarantee?
+
+SD= 120 hrs 
+Half-Life Mean= 700 hrs under warranty 
+n=100 bulbs at random 
+Half- Life Determined Popoulation Mean- 650 Hrs 
+Significance Level - 0.01 - 0.95 
+H0= Half life of the bulbs is >=700 hrs  
+H1= half life of the bulbs is <=700 hrs
+
+Df= 1-n= 24
+Alpha Level = (1-.95)/2 = 0.25
+Z score = 1 - 0.25=0.975=1.96 = 2.33
+Using formula for t-test statistics = mean – sample mean/std dev/root of n =700-2.33/120/root of 100 = 650
+H0 - Cannot be accepted with a significance level of 1%.
+
+
+
+
+
+
+2.Suppose a coin is tossed for 50 times and we got 35 heads.With a
+significance level of 0.1, determine if the coin is biased for heads. Show
+all calculations and rules. Also, calculate the value of ‘p’ and interpret it.
+
+N= 50 
+P(A)=35 Heads
+Significance level of 0.1,0.90 confidence interval 
+Biased for Heads
+Calculate (P)
+
+
+
+
+
+
+3.Using 25 observations and 5 regressor, including the constant term, a
+researcher estimates a
+linear regression model by OLS and finds
+b2 = 4.21 ,st.err. of b2 = 1.80
+b3 = −0.116 ,st.err. of b3 = 0.0388
+Let t20df be a random variable having a t distribution with n − K = 25 −
+5 = 20 d.f.. Use the
+following probabilities:
+Prob(t20df > 1.75) = .05
+Prob(t20df > 2.086) = .025
+For each of the pairs of hypotheses given below, use a t-test to
+accept or reject H0 at the 5%
+significance level. Show your reasoning.
+(a) H0 : β2 = 0 ; Ha : β2 < 0
+(b) H0 : β2 = 0 ; Ha : β2 6= 0
+(c) H0 : β2 = 0 ; Ha : β2 > 0
+(d) H0 : β3 = 0 ; Ha : β3 < 0
+(e) H0 : β3 = 0 ; Ha : β3 6= 0
+(f) H0 : β3 = 0 ; Ha : β3 > 0
+(g) H0 : β2 = 1 ; Ha : β2 6= 1
+
+
+(a) t = (4.21 - 0)/1.80 = 2.34 Reject if t < −1.725. Since t > −1.725, then accept H0 at the 5% significance level
+(b) t = 2.34 Reject if |t| > 2.086. Since t = 2.34, then |t| > 2.086, so reject H0 at the 5% level 
+(c) t = 2.34 Reject if t > 1.725. Since t > 1.725, then reject H0 at the 5% level 5
+(d) t = (−0.116 − 0)/.0388 = −2.99 Reject if t < −1.725. Since t < −1.725, then reject H0 at the 5% level 
+(e) t = -2.99 Reject if |t| > 2.086. Since t = −2.99, then |t| > 2.086, so reject H0 at 5% level
+(f) t = -2.99 Reject if t > 1.725. Therefore accept H0 at the 5% level 
+(g) t = (4.21 − 1)/1.80 = 1.78 Reject if |t| > 2.086. Since t = 1.78, then |t| < 2.086, so accept H0 at the 5% level 
+
+
+
+
+4.The Food and Nutrition Board of the National Academy of Sciences states
+that the recommended daily allowance (RDA) of iron for adult females
+under the age of 51 is 18 milligrams (mg). A sample of iron intake in was
+obtained during a 24-hour period from 45 randomly selected adult
+females under the age of 51. It revealed that the sample mean () was
+14.68 mg. At the 1 percent significance level, does the data suggest that
+adult females under the age of 51 are, on average, getting less than the
+RDA of 18 mg of iron? Assume that the population standard deviation is
+4.2 mg.
+`
+N=45  
+mean=14.68 
+std dev= 4.2   
+type of test – left tailed test
+Stating the hypothesis – H0 – Mean = 18 mg 
+Ha – Mean <=18 mg 
+
+Degree to significance – in percentage alpha =1%
+level of signifiance, alpha = 0.01
+
+Computing the value of test statistics(Z)
+Mean/x – mean = 18
+std dev = std/root of n = 4.2/root 45 
+z=mean – sample mean/std dev/root of n =(14.68-18) /4.2 root of 45 = -5.30
+Type of test – Left tailed – critical value – Za=-2.33
+Compare the values of test statistics,Z and critical value Za or +Za/2
+Interpret the results of the hypothesis 
+at 1 % significance level, the data provides sufficient evidence to conclude that adult females under the age of 51% are on average, getting less then the RDA of 18mg of iron. 
+
+
+P-Value Approach 
+
+Determine the P- value 
+p-value=P(z<=Z)=P(z<=-5.3)= 0.0000 small 
+Rejet H0 since 0.0000<0.01
+
+5.Boys of a certain age are known to have a mean weight of μ = 85 pounds. A
+complaint is made that the boys living in a municipal children's home are
+underfed. As one bit of evidence, n = 25 boys (of the same age) are
+weighed and found to have a mean weight of x¯ = 80.94 pounds. It is
+known that the population standard deviation σ is 11.6 pounds (the
+unrealistic part of this example!).  Based on the available data, what
+should be concluded concerning the complaint?
+
+μ = 85 pounds
+n=25 
+mean = 80.94
+sd=11.6
+
+H0:u= 85
+H1:u<85
+z=80.94-85/11.63/root of 25 = -1.75
+Alpha=0.05,
+
+So, Z=<=-1.645 so, we reject the null hypothesis.
+
+P - Value approach 
+
+P-value ≤ α = 0.05. In this case, the P-value is P(Z < −1.75) = 0.040
+So, we reject the null hypothesis
+
+
+6.It is assumed that the mean systolic blood pressure is μ = 120 mm Hg. In the
+Honolulu Heart Study, a sample of n = 100 people had an average
+systolic blood pressure of 130.1 mm Hg with a standard deviation of 21.21
+mm Hg. Is the group significantly different (with respect to systolic blood
+pressure!) from the regular population?
+
+u= 120 mm Hg
+N=100 
+Avg Systolic Blood pressure Mean = 130.1 mm 
+SD=21.21
+
+H0:u=120
+H1:u not equal 120
+
+t=130.1-120/21.21/root of 100 = 4.76
+
+Reject the Null Hypothesis
+
+P-value approach tells us to reject the null hypothesis at the α = 0.05 level if the P-value ≤ α = 0.05. 
+P-value is 2 × P(T99 >4.762) < 2 × P(T99 >1.9842) = 2(0.025) = 0.05:
+
+
+
+7.Salary Wizard is an online tool that allows you to look up incomes for specific
+jobs for cities in the United State. We looked up the 25th percentile for
+income for six jobs in two cities: Boise, Idaho, and Los Angeles, California.
+The data are below.
+Jobs 					Boise Los Angeles
+Executive chef 				53047       62490
+Genetics counselor			49958       58850
+Grants/proposal writer               	41974       49445
+Librarian 				44366       52263
+Public schoolteacher 			40470       47674
+Social worker (with bachelor's degree) 	36963       43542
+
+How can we conduct a paired-samples t test to determine whether
+income in one of these cities differs, on average, from income in the
+other?
+Calculate am independent t-test
+
+Population 1 - job types boise,idaho
+Population 2 - job types la,cal
+
+H0:Jobs in Boise pay the same , on avg. as jobs in la 
+H1:Jobs in Boise pay different incomes, on avg. from jobs in la 
+
+Jobs 					Boise Los Angeles	Difference (LA-Boise)
+Executive chef 				53047       62490	9443
+Genetics counselor			49958       58850	8892
+Grants/proposal writer               	41974       49445	7471
+Librarian 				44366       52263	7897
+Public schoolteacher 			40470       47674	7204
+Social worker (with bachelor's degree) 	36963       43542	6579
+
+
+Mean = Total Difference / N(6) = 47486/6= 7914.13
+
+SD= root of 1/N sigma N n-1 (xi-Meau) square = 438.38
+
+T- Test = 7914.13-0/438.38\root of 6 = 18.04
+
+Since, the test is 2 sided - P-value P(|T)>18.04= 2P(t>18.04)
+df(degrees of freedom)= N-1=6-1=5
+P-Value = 9.628
+P-value is less then <0.05, so we reject the null hyptothesis.
+
+There is difference between population mean of income of jobs in la then the income of jobs in Boise. 
+Jobs in LA pay more then the jobs in Boise.
+
+
+
+
+
+8.Calculate am independent t-test for the following data:
+X1            X2
+6             12
+4               4
+2               7
+3             10
+9               5
+6               8
+5               3
+
+Step 1 - Sum of the groups X1=35
+Sum of groups X2= 49
+Step 2 - Squares of sum from step 1 = 35 square = 1225,49 square - 2500
+Step 3 - Mean of the group - 35/7 = 5, 49/7 = 7
+Step 4 - Square the individual scores and then add them = X1= 207 , X2=407
+Step 5 - T-test -  mean x1 - mean x2 / root of sigma X1 square  - sigma X1 square /NA + sigma X2 square - sigma X2 square/NB/NA-NB-2
+-2/ root of (207-1225/7)+ (407-2500/7)/7+7-*2 . [1/7+1/7]
+=-2/root of (207-175)+(407-357.14)/12 . 2/7
+=-2/ root of 6.821 * 2/7 = -2/1.395
+=-1.433
+
+
+
+
+
+9.A manufacturing process produces ball bearings with diameters that have
+a normal distribution with known standard deviation of .04 centimeters.
+Ball bearings with diameters that are too small or too large are
+undesirable. In order to test the claim that μ = 0.50 centimeters, perform a
+two-tailed hypothesis test at the 5% level of significance. Assume that a
+random sample of 25 gave a mean diameter of 0.51 centimeters.
+Perform a hypothesis test (6 step procedure outlined in class) and state
+your decision.
+
+Sd=0.04
+u=0.50
+To do - Two-Tailed hypothesis 
+N=25
+Mean=0.51
+
+
+Steps as stated in Class
+
+1. State the H0(null),H1(alternate) Hypothesis = H0:U= 0.50,H1:U>0.51
+
+2. Confidence Interval - 0.05 Alpha - 
+
+3. Type of test - Z-Test
+
+4. Determining the Critical Region - Z= +- 1.96
+
+5. Collect - Find the Ttest value - mean – sample mean/std dev/root of n= 0.51-0.5/0.4/root of 25 = 1.25
+
+
+6. Conclusion - Do not reject H0 as it lies within the range. 
+
+
+10. A user of certain gauge of steel wire suspects that the SD of its breaking
+strength in Newtons(N), is different from the value of .75 as specified by
+the manufacturer
+Consequently the user tests the breaking strength of each of a
+random sample oh nine lenghths of wire and obtains the following
+results.
+72.1                74.5                72.8    75        73.4    75.4    76.1   
+73.5    74.1
+Assuming breaking strength to be normally distributed, test at the 10% level of significance, the manufacturer's specification. 
+
+H0= null = Strength in N >0.75
+H1- alternate - Strength is N<0.75
+N=9
+Mean= 72.1+74.5+72.8+75+73.4+75.4+76.1+73.5+74.1/9 = 666.9/9= 74.1 
+SD= 0.75
+Level of Significance - 10% So, Alpha is 0.1 = 1.397
+Test value - mean – sample mean/std dev/root of n = 74.1-0/0.75/root of 9 = 74.1/0.75/3=
+
+
+

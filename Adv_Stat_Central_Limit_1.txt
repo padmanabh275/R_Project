@@ -1,0 +1,304 @@
+
+Problems on	Central limit theorem
+1. The record of weights of male population follows normal distribution. Its mean
+and standard deviation are 70 kg and 15 kg respectively. If a	researcher considers
+the records of 50 males, then what would be the mean	and standard deviation of
+the chosen sample?
+n=50
+mean=70 kg
+standard deviation=15 kg
+15/root of 50 =2.12 =2.1 kg
+
+
+
+2. At a	coastal area, the number of crabs caught per day are recorded. The
+average of which is 10 and standard deviation is 3. If the record of 60 days is
+chosen randomly, estimate the mean and standard deviation of the chosen
+sample.
+mean=10
+sd=3
+n=60
+3/root of 60  = 0.38
+
+
+
+
+
+
+3. The weight of adult males are normally distributed with a	mean	of 172 pounds
+and a	standard deviation of 29 pounds
+mean=172 pounds
+sd=29 pounds
+
+a) What is the probability that one randomly selected adult male will weigh more
+than	190 pounds?
+sd = 190-172/29 =0.621
+
+
+
+b) What is the probability that 25 randomly selected adult males will have a
+mean	weight of more than	190 pounds?
+n=25
+mean=190
+29/root of 25=29/5 =5.8
+190-172/5.8=3.103
+
+
+
+4. Engineers must consider the breadths of male heads when designing
+motorcycle helmets. Men have head breaths that are normally distributed with a
+mean	of 6.0 inch and a	standard deviation of 1.0 inch
+mean=6.0
+sd=1.0
+
+
+
+a) If one male is randomly selected ind the probability that his head breadth is
+less than	6.2 inch
+devision/sd = .2/1 = .2 
+
+
+b) Find the probability that 100 randomly selected have a	mean	head breath that
+is less than	6.2inch
+
+sdofx=sd/root of n = 1.0/root of 100 = 0.1 
+z=mean- n/sd of x = 6.2-6 /0.1 = 2.0 on z table its .9772 which is 97.72 percent 
+
+5. A high school teacher at a	small private school assigns trigonometry practice
+problems to be worked via	the net. Students must use a	password to access the
+problems and the time of log-in and log-off are automatically recorded for the
+teacher. At the end of the week, the teacher examines the amount of time each
+student spent
+Working the assigned problems. The data	is provided below in minutes.
+15 28 25 48 22 43 49 34 22 33 27 25
+22 20
+
+ sorted list - 15, 20, 22, 22, 22, 25, 25, 27, 28, 33, 34, 43, 48, 49
+
+a) Find the Mean, Median, and Mode for the above data.
+Mean = no of value in records / total = 413/14 =29.5
+since the values are even the median is  = 25+27/2=26
+most frequently occuring value is mode so, mode in this list = 22   
+
+
+b) What does this information tell you about students' length of time on the
+computer solving trigonometry problems?
+
+average time spent on computers for a student is 29.5 minutes 
+
+c) Is this data	skewed?
+NO, this data is not skewed since, mode and median are around the mean
+
+
+6. Bailey has been playing golf on the weekends for the past three years. Recently,
+she started keeping track of her recorded scores. Her scores for June and July at
+her favorite 9-hole (par 36) golf course are provided below.
+45 49 42 56 41 36 34 38 41 40 42 41
+39 38 40 39 36 41
+
+Sorted list - 34, 36, 36, 38, 38, 39, 39, 40, 40, 41, 41, 41, 41, 42, 42, 45, 49, 56
+
+a) Find the Mean, Median, and Mode for the above data.
+Mean = total/n = 738/18 = 41
+Median = 40+41/2 = 81/2 =40.5
+Mode= 41
+
+
+b) What does this information tell you about Bailey's golf game?
+
+Bailey mean is above the median so, that signfies he is playing consistently well 
+
+c) Is this data	skewed?
+No, The data is not skewed as the mean median and mode are closer to each other. 
+
+7. Midterm exam scores for a	small advanced neuroanatomy class are provided
+below. Scores represent percent of items marked correct on the exam.
+87 99 75 87 94 75 35 88 87 93
+
+sorted data - [35, 75, 75, 87, 87, 87, 88, 93, 94, 99]
+
+
+a) Find the Mean, Median, and Mode for the above data.
+Mean = 820/10 = 82 
+median = 94+75/2= 84.5
+mode = 87 
+
+
+
+b) What does this information tell you about students' performance on the
+midterm (the traditional grading scale is used)?
+
+
+On the average, the students have performed much better than expected as they have 
+scored the 
+
+c) Is this data	skewed?
+No the data is not skewed as mean,median and mode are closer to each other. 
+
+8. A group committed to quality television has been concerned about a	new talk
+show. For two weeks, they decide to count the number of words that must be
+"bleeped" as too obscene for television and the number of physical altercations.
+They hope that after recording this data	that they will be able to argue that the
+show is inappropriate for television particularly during the day. The data	for
+number of words censored is provided below.
+342 267 321 157 33 349 254 166 132 289
+
+sorted list - [33, 132, 157, 166, 254, 267, 289, 321, 342, 349]
+
+a) Find the Mean, Median, and Mode for the above data.
+Mean=231
+Median=260.5
+mode= ( No mode in the list, all the values are different)
+ 
+
+b) What does this information tell you about the talk show?
+
+
+
+c) Is this data	skewed?
+Yes, it is slightly towards the right which means the words bleeped would 
+probably have some effect on the show.
+
+
+9. What is mean, median, mode? Write down the formula	for each
+mean = total values in list of values / no of observations
+median = the central value of the sorted list in an observation. If the values are even then divide the values by 2.
+mode= the occurance of the value in a given list of nos.
+
+
+
+10. What is central tendency?
+
+A measure of central tendency is a single value that attempts to describe a set of data by identifying the central position within that set of data. As such, measures of central tendency are sometimes called measures of central location. They are also classed as summary statistics. The mean (often called the average) is most likely the measure of central tendency that you are most familiar with, but there are others, such as the median and the mode.
+
+The mean, median and mode are all valid measures of central tendency, but under different conditions, some measures of central tendency become more appropriate to use than others. In the following sections, we will look at the mean, mode and median, and learn how to calculate them and under what conditions they are most appropriate to be used.
+
+
+
+11. Stephen has been working on programing and updating a	Web site for his
+company for the past 15 months. The following numbers represent the number
+of hours Stephen has worked on this Web site for each of the past 7 months:
+24, 25, 31, 50, 53, 66, 78
+
+
+What is the mean	(average) number of hours that Stephen worked on this Web
+site each month?
+mean=46.71 hours spent on average
+
+
+12. Mark operates Technology Titans, a	Web site service that employs 8 people.
+Find the mean	age of his workers if the ages of the employees are as follows:
+55, 63, 34, 59, 29, 46, 51, 41
+
+Mean = 47.25 age of workers
+
+
+13. Two weeks before Mark opened Technology Titans, he launched his company
+Web site. During those 14 days, Mark had an	average of 24.5 hits on his Web site
+per day. In the irst two days that Technology Titans was open for business, the
+Web site received 42 and 53 hits respectively. Determine the new average for hits
+on the Web site.
+
+New average = 24.5+42+53=39.83 hits per day 
+
+
+
+
+14. In Tim's ofice, there are 25 employees. Each employee travels to work every
+morning in his or her own car. The distribution of the driving times (in minutes)
+from home to work for the employees is shown in the table below.
+Driving Times (minutes)
+0 to less than	10-5.5 *3=16.5
+10 to less than	20-15.5 * 10 = 155
+20 to less than	30-25.5 * 6 = 153
+30 to less than	40-35.5 * 4= 142
+40 to less than	50-45.5 * 2= 91
+Number of Employees
+3
+10
+6
+4
+2
+Calculate the mean	of the driving times. 
+
+The Mean of average driving times is 22.3 Minutes
+
+
+
+15. Find the median	of the following data:
+12, 2, 16, 8, 14, 10, 6
+
+Median of the data is 5.5
+
+
+16. Find the mode of the following data:
+76, 81, 79, 80, 78, 83, 77, 79, 82, 75
+
+The Mode of the data is - 79
+
+
+
+17. The ages of 12 randomly selected customers at a	local Best Buy are listed
+below:
+23, 21, 29, 24, 31, 21, 27, 23, 24, 32, 33, 19
+
+What is the mode of the above ages? 21,23,24
+
+18. You begin to observe to the color of clothing your employees wear. Your goal
+is to ind out what color is worn most frequently so that you can	offer company
+shirts to your employees.
+
+Monday: Red, Blue, Black, Pink, Green, and Blue
+Tuesday: Green, Blue, Pink, White, Blue, and Blue
+Wednesday: Orange, White, White, Blue, Blue, and Red
+Thursday: Brown, Black, Brown, Blue, White, and Blue
+Friday: Blue, Black, Blue, Red, Red, and Pink
+
+What is the mode of the colors above? BLUE 
+
+
+19. The numbers are 7, 4, 9, 7, 3 and 12. Compute the mean, median	and mode.
+Mean - Median - Mode - 7 for all the 3
+
+
+
+20. On the past 5 tests, Larry has scored a	77, 82, 82, 92 and 87. What is the
+mean, median	and mode of this set of data?
+
+Mean - Median- Mode -  82 - for all the 3 
+
+21.Marks obtained in maths by 9 students are given below
+60,100,63,85,95,24,70. Find mean. If marks of each student be increased by 4,
+what will be the new arithmetic mean?
+Mean - 71 , the mean would increse by 4 which is 75
+
+
+22. Find mean	of 5, 45, 63, 77, 88. If each number is diminished by 2, ind new
+mean
+Mean - 55.6  , Minus 2 - Mean - 54 The mean changed by 1.6
+
+23. What are the various types of data	in statistics?
+
+Various types of data  in statistics are 
+1. Qualitative
+2. Quantitative 
+a) discrete
+b)Continous 
+
+
+24. What are the types of statistics?
+1. Descriptive Statistics: It is used for summarizing observations etc.
+2. Inferential Statistics: It is used for interpreting the meaning of the descriptive stats. 
+
+
+25. What are random variables?
+A random variable, usually written X, is a variable whose possible values are numerical outcomes of a random phenomenon. There are two types of random variables, discrete and continuous.
+
+
+26. How to present data	in terms of tables and charts
+1.Include, below the figure, a title providing all relevant information;
+2.Be referred to as figures in the text;
+3.Identify figure axes by the variables under analysis;
+4.Quote the source which provided the data, if required;
+5.Demonstrate the scale being used; and.
+6.Be self-explanatory.

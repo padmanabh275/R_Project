@@ -1,0 +1,143 @@
+The box and whisker plot below was drawn using a list of numbers (data).
+Determine if each statement is definitely true, definitely false, or cannot be
+determined. If you believe it cannot be determined, cross your arms and
+pout, to give the impression that you are truly outraged at the lack of
+information.
+Half the data falls between 1 and 3. Definitely True
+The number 5 must be in the list of numbers from which this plot was
+drawn. - Definitely True
+The number 1.5 must be in the list of numbers from which this plot was
+drawn. - Definitely False
+
+2. Find the median, lower quartile and upper quartile of the following numbers 12, 5,
+22, 30, 7, 36, 14, 42, 15, 53, 25
+
+Median=22
+Lower Quartile= 13
+Upper Quartile= 33
+
+
+
+3. Find the median, lower quartile, upper quartile, interquartile range and range of
+the following numbers.12, 5, 22, 30, 7, 36, 14, 42, 15, 53, 25, 65
+
+Median= 23.5
+Lower Quartile(Q1)=12.25
+Upper Quartile(Q3)=23.50
+IQR= Q3- Q1 = 23.5-12.25=11.25
+range(Difference between Highest and lowest number) = Max - min = 63
+
+4. Find the range of the following data set. {1, 6, 3, 9, 7, 2, 5, 4, 11, 15, 10}
+Range = 14
+
+
+
+
+5. For the data set below, which value is in the 75th percentile?{1, 3, 3, 4, 6, 7, 7, 7,
+8, 9, 9, 10, 12, 15, 16, 17}
+
+75th Percentile = 10.50 which is also the 3rd Quartile
+
+
+
+6. Which of the following data values is the 50th percentile?{1.52, 5.36, 6.79, 5.21,
+0.28, 6.36, 8.47, 5.52, 6.26, 5.97}
+
+50th Percentile= 5.74
+
+
+
+7. What is Q3 for the following data set?{20, 40, 50, 65, 70, 75, 80, 100}
+
+Q3= 76.25
+
+
+
+
+8. Which of the following data values is the 50th percentile?{1.52, 5.36, 6.79, 5.21,
+0.28, 6.36, 8.47, 5.52, 6.26, 5.97}
+
+50th Percentile = 5.74
+
+
+9. What is Q3 for the following data set?{20, 40, 50, 65, 70, 75, 80, 100}
+
+Q3= 76.25
+
+
+
+
+10. The wheat production (in Kg) of 20 acres is given as: 1120, 1240, 1320, 10,40,
+1080, 1200, 1440, 1360, 1680, 1730, 1785, 1342, 1960, 1880, 1755, 1720,
+1600, 1470, 1750, and 1885. Find the quartile deviation and coefficient of
+quartile deviation.
+
+Quartile Deviation = Q3-Q1 /2 = 1750-1240 /2 = 1130
+Coefficient of Quartile deviation = Q3-Q1/Q3+Q1= 1750-1240/1750+1240= 510/2990=0.170
+
+
+
+
+
+11. Find the quartiles of the following data: 3, 5, 6, 7, 9, 22, 33.
+
+count   7.000000
+mean   12.142857
+std    11.111984
+min     3.000000
+25%     5.500000
+50%     7.000000
+75%    15.500000
+max    33.000000
+
+
+12. Find the Quartiles of the following marks:- 21, 12, 36, 15, 25, 34, 25, 34
+
+count   8.000000
+mean   25.250000
+std     9.003967
+min    12.000000
+25%    19.500000
+50%    25.000000
+75%    34.000000
+max    36.000000
+
+
+13. Find the median, lower quartile, upper quartile and interquartile range of the
+following data set of scores:
+18 20 23 20 23 27 24 23 29
+
+Lower Quartile=20
+Upper Quartile=24
+IQR=q3-q1 = 24-20 = 4
+
+
+
+
+14. Construct a box plot for the following data: 12, 5, 22, 30, 7, 36, 14, 42, 15, 53,25
+
+
+
+
+
+
+15. Draw a box plot for the following set of data. Remember to order the data first, if
+necessary. 1, 0, 3, 2, 1, 1, 7, 8, 6, 6, 7, 7
+
+16. Draw a box plot for the following set of data. Remember to order the data first, if
+necessary.4.7, 3.8, 3.9, 3.9, 4.6, 4.5, 5
+
+17. For the following list of numbers, draw a box and whisker plot showing outliers
+and extreme values:10, 12, 12, 14, 15, 16, 18, 30
+
+
+
+18. For the following list of numbers, draw a box and whisker plot showing outliers
+and extreme values: -6, 4.5, 5.5, 6.5, 8.5, 10, 12, 30
+
+19. For the following list of numbers, draw a box and whisker plot showing outliers
+and extreme values:16, 55, 78, 80, 81, 82, 84, 86, 88, 90, 105
+
+
+20. Create a box-and-whisker plot to display the data below.
+45, 58, 34, 42, 52, 49, 50, 45, 51

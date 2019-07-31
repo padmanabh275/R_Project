@@ -1,0 +1,372 @@
+﻿1.
+You toss a fair coin three times:
+a.What is the probability of three heads,
+HHH
+HHH
+?
+3/8 = 0.375
+
+
+b.What is the probability that you observe exactly one heads?
+
+1/8=0.125
+
+c.Given that you have observed at least one heads, what is the probability that you observe at least two heads?
+2/8=0.25
+
+
+2.   For three events AA, BB, and CC, we know that
+
+AA and CC are independent,
+
+BB and CC are independent,
+
+AA and BB are disjoint,
+
+P(A∪C)=23,
+P(B∪C)=34,
+P(A∪B∪C)=1112
+P(A∪C)=23,
+P(B∪C)=34,
+P(A∪B∪C)=1112. 
+Find P(A),P(B)P(A),P(B), and P(C)P(C).
+p(A)= P(A∪B∪C)-P(A∪C)-P(B∪C)=1112-34-23=1055
+P(B) P(A)=1055-34=
+P(B)=
+P(C)P(C)=
+
+
+
+
+3.  Let C1,C2,⋯,CMC1,C2,⋯,CM be a partition of the sample space SS, and AA and BB be two events. Suppose we know that AA and BB are conditionally independent given CiCi, for all i∈{1,2,⋯,M}i∈{1,2,⋯,M}; BB is independent of all CiCi's. Prove that AA and BB are independent.
+
+   
+
+ 
+
+4.   In my town, it's rainy one third of the days. Given that it is rainy, there will be heavy traffic with probability 12, and given that it is not rainy, 
+there will be heavy traffic with probability 14. If it's rainy and there is heavy traffic,
+I arrive late for work with probability 12. On the other hand, the probability of being late is reduced to 18 if it is not rainy and there is no heavy traffic. 
+In other situations (rainy and no traffic, not rainy and traffic) the probability of being late is 0.250 You pick a random day.
+
+Rainy in town =1/3 of days
+Rainy day/heavy traffic = 12 
+Not Rainy/heavy traffic = 14 
+prob(No rain/heavy traffic)=14
+Prob. reduced to 18 if it is not rainy 
+normal condition - 0.25
+
+Prior prob. of rain = No of rainy days / Total No of days 
+=12/26=0.461
+Prior prob. of not rainy day = No of not rainy days / Total no of days 
+=14/26=0.538
+
+
+
+
+a.   What is the probability that it's not raining and there is heavy traffic and I am not late?
+
+
+
+b.   What is the probability that I am late?
+
+c.   Given that I arrived late at work, what is the probability that it rained that day?
+
+5.   A box contains three coins: two regular coins and one fake two-headed coin (P(H)=1P(H)=1),
+
+·         You pick a coin at random and toss it. What is the probability that it lands heads up?
+
+·         You pick a coin at random and toss it, and get heads. What is the probability that it is the two-headed coin?
+
+
+C1 = Regular Event 
+C2 = Two headed coin
+P(H/C1)=0.5
+P(h/C2)=1
+
+P(H)=P(H/C1)P(C1)+P(H/C2)P(C2)
+1/2*2/3+ 1 * 1/3
+=2/3
+
+P(C2/H)=P(H/C2)P(C2) /P(H) 
+=1*1/3\2/3 = 1/2
+
+
+6.I toss a coin repeatedly. The coin is unfair and P(H)=pP(H)=p. The game ends the first time that two consecutive heads (HHHH) or two consecutive tails (TTTT) are observed. 
+I win if HHHH is observed and lose if TTTT is observed. For example if the outcome is HTHTT−−−HTHTT_, I lose. On the other hand, if the outcome is THTHTHH−−−−THTHTHH_, I win. 
+Find the probability that I win.
+
+
+S = {HH,HT,TH,TT}.
+E = {HH}.
+p(H)=1/4
+S = {HHH,HHT,HTH,HTT, TTT, TTH, THH,THT}.
+P(H)=3/8
+S = 2^n.
+E(H) = n.
+P(Win)=n/2n
+
+
+
+
+7.
+In an exam, two reasoning problems, 1 and 2, are asked. 35%
+students solved problem 1 and 15% students solved both the
+problems. How many students who solved the first problem will
+also solve the second one?
+
+Probability of student solving problem 1,P(1)=0.35
+
+Probability of student solving both problem, P(1 and 2)=0.15
+
+Probability of solving 2 if 1 is solved, P(2|1) = P(1and2)P(1) = 0.150.35 = 0.428
+
+
+
+8.
+Out of 50 people surveyed in a study, 35 smoke in which there are
+20 males. What is the probability the if the person surveyed is a
+smoker then he is a male?
+
+Probability of the person being male and a smoker, P(A and B) = 20/50
+
+Probability of person being smoker, P(A) = 35/50
+
+Probability of a person being male if he is smoker, P(B|A) = P(AandB)P(A = 20/35 = 17
+
+person surveyed is a smoker then he will be a male = 1/7
+
+9.
+The probability of raining on Sunday is 0.070.07. If today is Sunday
+then find the probability of rain today.
+
+Probability that it is raining and the day is Sunday, P(A and B)=0.07
+Probability that is is Sunday, P(B) = 1/7
+Probability that it will rain if today is Sunday, P(A|B) = 0.07/1/7 = 0.49
+
+
+
+10.
+In a school the third language has to be chosen between Hindi and
+French. If a student has taken French then what is the probability
+that he will take Hindi, if the probability of taking Hindi is 0.34?
+
+Probability of taking French and Hindi, P(A and B)=0 as they are mutually exclusive events
+Probability of taking French, P(B)=0.34
+Probability of taking Hindi if French has been opted, P(A|B) = P(AandB)P(B) = 0/0.34 = 0
+
+
+
+
+11.
+What is the probability that the total of two dice will be greater than
+9, given that the first die is a 5?
+
+1.0 x ( 2 / 6 ) = 0.33
+
+
+
+
+
+12.
+Two die are thrown simultaneously and the sum of the numbers
+obtained is found to be 7 . What is the probability that the number
+3 has appeared at least once?
+The probability of 3 appearing on the dice on a single throw is 1/6. It really does not matter what the sum would be.
+
+But, since there are two dice thrown, the probability of 3 appearing at least once is doubled. So the answer would be 1/6 + 1/6 = 2/6 or 1/3. In percentage terms, its 33.33%.
+
+
+
+13.
+Consider the example of finding the probability of selecting a black
+card or a 6 from a deck of 52 cards.
+
+Number of total cards = 52
+Number of black cards = 26 ( These will include 2 cards with number 6 - those of Spades and Clubs)
+So, 2 more number 6 cards will be left ( Those of Hearts and Diamonds)
+The probability of drawing a black card or a 6= (26+2)/52 = 28/52 = 7/13
+
+
+14.
+Say, a coin is tossed twice. What is the probability of getting two
+consecutive tails?
+
+Probability of getting a tail in one toss = 1/2
+
+The coin is tossed twice. So 1/2 * 1/2 = 1/4 is the answer.
+
+
+15.
+Consider another example where a pack contains 4 blue, 2 red and 3
+black pens. If a pen is drawn at random from the pack, replaced
+and the process repeated 2 more times, what is the probability of
+drawing 2 blue pens and 1 black pen?
+
+Here, total number of pens = 9
+
+Probability of drawing 1 blue pen = 4/9
+Probability of drawing another blue pen = 4/9
+Probability of drawing 1 black pen = 3/9
+Probability of drawing 2 blue pens and 1 black pen = 4/9 * 4/9 * 3/9 = 48/729 = 16/243
+
+
+
+16.
+In a class, 40% of the students study math and science. 60% of the
+students study math. What is the probability of a student studying
+science given he/she is already studying math?
+
+P(M and S) = 0.40
+
+P(M) = 0.60
+
+P(S|M) = P(M and S)/P(S) = 0.40/0.60 = 2/3 = 0.67
+
+
+17.
+What is the probability of the occurrence of a number that is odd or
+less than 5 when a fair die is rolled.
+
+Let the event of the occurrence of a number that is odd be ‘A’ 
+the event of the occurrence of a number that is less than 5 be ‘B’. 
+We need to find P(A or B).
+
+P(A) = 3/6 (odd numbers = 1,3 and 5)
+
+P(B) = 4/6 (numbers less than 5 = 1,2,3 and 4)
+
+P(A and B) = 2/6 (numbers that are both odd and less than 5 = 1 and 3)
+
+Now, P(A or B) = P(A) + P(B) – P(A or B)
+
+= 3/6 + 4/6 – 2/6
+
+P(A or B) = 5/6
+
+
+
+18.
+A box contains 4 chocobars and 4 ice creams. Tom eats 3 of them,
+by randomly choosing. What is the probability of choosing 2
+chocobars and 1 icecream?
+
+Probability of choosing 1 chocobar = 4/8 = 1/2
+
+After taking out 1 chocobar, the total number is 7.
+
+Probability of choosing 2nd chocobar = 3/7
+
+Probability of choosing 1 icecream out of a total of 6 = 4/6 = 2/3
+
+So the final probability of choosing 2 chocobars and 1 icecream = 1/2 * 3/7 * 2/3 = 1/7
+
+
+
+19.
+A jar contains black and white marbles. Two marbles are chosen
+without replacement. The probability of selecting a black marble
+and then a white marble is 0.34, and the probability of selecting a
+black marble on the first draw is 0.47. What is the probability of
+selecting a white marble on the second draw, given that the first
+marble drawn was black?
+
+
+P(White|Black) = 0.34/0.47=0.72= 72 %
+P(Black and White) = 0.34	
+P(Black)=0.47
+
+
+
+20.
+The probability that it is Friday and that a student is absent is 0.03.
+Since there are 5 school days in a week, the probability that it is
+Friday is 0.2. What is the probability that a student is absent given
+that today is Friday?
+
+
+P(Friday and Absent)	  =  	0.03
+P(Friday)=	0.2
+
+P(Absent | Friday) = 0.03/0.2 =0.15 or 15%
+
+
+
+21.
+Find the probability of B given A, where A is the event getting a
+number greater than 3 while tossing the die. The die is so
+constructed that the event numbers are twice as likely to occur as
+the odd numbers and B be the event of getting a perfect square.
+
+There are 6 faces in a die with 3 even numbers and 3 odd numbers.
+If the probability of getting an odd number is p, then the probability of getting an even number is 2p. 
+Since total probabilty is 1 it implies that 3p+3(2p)=1⇒9p=1⇒p=19. So, the probability of getting an odd number (i.e. 1,3 and 5) is 19 and 
+that of getting an even number (i.e. 2,4 and 6) is 29.
+
+It is presumed that X representing a perfect square means the product of outcomes of the 2 die is a perfect square. 
+And in that case, the possible outcomes are (1,1),(1,4),(2,2),(3,3),(4,1),(4,4),(5,5),(6,6).
+1+2+4+1+2+4+1+4/81=19/81
+
+
+22.
+The joint probability density function of the thickness X and diameter
+Y of a randomly chosen f(x, y) = 1616(x + y) for x
+∈[1, 2] and y ∈[4, 5]. Find the conditional probability density for Y given X = 1.2.
+
+
+
+23.
+A card is drawn from an ordinary deck and we are told that it is red,
+what is the probability that the card is greater than 2 but less than
+9.
+
+Total Cards = 26
+Total no of red cards greater then 2 but less then 9 = 12
+Probability = 12/26 = 6/13
+
+
+
+
+24.
+A pair of dice is thrown. If it is known that one die shows a 4, what
+is the probability that
+a) the other die shows a 5
+
+Total Dice Rolls = 11
+probability of 2 out of 11 = 2/11
+
+b) the total of both the die is greater than 7.
+total dice rolls = 11
+probability of greater 7 = 5/11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
